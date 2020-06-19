@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rentaltrips/pages/page9.1.dart';
 import 'package:rentaltrips/pages/page9.10.dart';
+import 'package:rentaltrips/pages/page9.13.dart';
 import 'package:rentaltrips/pages/page9.5.dart';
 import 'package:rentaltrips/pages/page9.3.dart';
 import 'package:rentaltrips/pages/page9.4.dart';
@@ -136,6 +137,13 @@ class _MyHomePageState extends State<MyHomePage> {
               pagenumber: 11,
               press: () {
                 openDialogPage911(context);
+              },
+            ),
+            SessionCard(
+              pagenumber: 13,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page913()));
               },
             ),
           ],

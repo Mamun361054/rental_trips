@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rentaltrips/widgets/custom_buttom.dart';
+import 'package:rentaltrips/widgets/custom_image.dart';
 
 class Page95 extends StatelessWidget {
   @override
@@ -102,7 +103,7 @@ class Page95 extends StatelessWidget {
                   borderRadius: BorderRadius.all(Radius.circular(8)),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(top:8.0,right: 8.0,left: 8.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
@@ -114,7 +115,19 @@ class Page95 extends StatelessWidget {
                       SizedBox(
                         height: 8,
                       ),
-                      Image.asset('assets/images/delete_car.png'),
+                      Container(
+                        height: 100,
+                        child: Wrap(
+                          children: <Widget>[
+                            CustomImage(),
+                            CustomImage(),
+                            Image.asset(
+                              'assets/images/take_pic.png',
+                              scale: 1.35,
+                            ),
+                          ],
+                        ),
+                      ),
                       SizedBox(
                         height: 8,
                       ),
