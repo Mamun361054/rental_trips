@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rentaltrips/pagesTenSeries/page103.dart';
 import 'package:rentaltrips/pagesTenSeries/page_with_navigation.dart';
 import 'package:rentaltrips/widgets/session_card.dart';
 class MyHomePageTen extends StatefulWidget {
@@ -24,12 +25,13 @@ class _MyHomePageTenState extends State<MyHomePageTen> {
                     context, MaterialPageRoute(builder: (context) => Page101()));
               },
             ),
-//            SessionCard(
-//              pagenumber: 2,
-//              press: () {
-//                openDialogPage92(context);
-//              },
-//            ),
+            SessionCard(
+              pagenumber: 2,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page103()));
+              },
+            ),
 //            SessionCard(
 //              pagenumber: 3,
 //              press: () {
