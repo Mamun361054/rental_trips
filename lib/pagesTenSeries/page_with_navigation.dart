@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rentaltrips/pagesTenSeries/dashborad.dart';
 import 'package:rentaltrips/pagesTenSeries/discover1.dart';
-import 'package:rentaltrips/pagesTenSeries/message.dart';
+import 'package:rentaltrips/pagesTenSeries/message1.dart';
 import 'package:rentaltrips/pagesTenSeries/profile.dart';
 import 'package:rentaltrips/pagesTenSeries/trips.dart';
 import 'package:rentaltrips/widgets/bottom_nav_bar.dart';
@@ -38,7 +38,7 @@ class _Page101State extends State<Page101> {
         break;
       case 3:
         setState(() {
-          _widget = Message();
+          _widget = MessagePage1();
         });
         break;
       case 4:
