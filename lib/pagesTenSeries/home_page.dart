@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:rentaltrips/pagesTenSeries/message2.dart';
+import 'package:rentaltrips/pagesTenSeries/message3.dart';
 import 'package:rentaltrips/pagesTenSeries/page103.dart';
 import 'package:rentaltrips/pagesTenSeries/page104.dart';
 import 'package:rentaltrips/pagesTenSeries/page105.dart';
@@ -48,20 +50,20 @@ class _MyHomePageTenState extends State<MyHomePageTen> {
                     context, MaterialPageRoute(builder: (context) => Page105()));
               },
             ),
-//            SessionCard(
-//              pagenumber: 5,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => Page95()));
-//              },
-//            ),
-//            SessionCard(
-//              pagenumber: 6,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => Page96()));
-//              },
-//            ),
+            SessionCard(
+              pagenumber: 5,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => MessagePage2()));
+              },
+            ),
+            SessionCard(
+              pagenumber: 6,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => MessagePage3()));
+              },
+            ),
 //            SessionCard(
 //              pagenumber: 7,
 //              press: () {
