@@ -136,7 +136,7 @@ class MessagePage3 extends StatelessWidget {
                               child: Row(
                                 children: <Widget>[
                                   Text(
-                                    "Rearrange",
+                                    "Review terms",
                                     style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
