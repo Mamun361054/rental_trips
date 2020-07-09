@@ -4,6 +4,10 @@ import 'package:rentaltrips/pagesTenSeries/message3.dart';
 import 'package:rentaltrips/pagesTenSeries/page103.dart';
 import 'package:rentaltrips/pagesTenSeries/page104.dart';
 import 'package:rentaltrips/pagesTenSeries/page105.dart';
+import 'package:rentaltrips/pagesTenSeries/page106.dart';
+import 'package:rentaltrips/pagesTenSeries/page107.dart';
+import 'package:rentaltrips/pagesTenSeries/page108.dart';
+import 'package:rentaltrips/pagesTenSeries/page109.dart';
 import 'package:rentaltrips/pagesTenSeries/page_with_navigation.dart';
 import 'package:rentaltrips/widgets/session_card.dart';
 class MyHomePageTen extends StatefulWidget {
@@ -64,34 +68,34 @@ class _MyHomePageTenState extends State<MyHomePageTen> {
                     context, MaterialPageRoute(builder: (context) => MessagePage3()));
               },
             ),
-//            SessionCard(
-//              pagenumber: 7,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => Page97()));
-//              },
-//            ),
-//            SessionCard(
-//              pagenumber: 8,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => Page98()));
-//              },
-//            ),
-//            SessionCard(
-//              pagenumber: 9,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => SplashScreen()));
-//              },
-//            ),
-//            SessionCard(
-//              pagenumber: 10,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => Page910()));
-//              },
-//            ),
+            SessionCard(
+              pagenumber: 7,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page106()));
+              },
+            ),
+            SessionCard(
+              pagenumber: 8,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page107()));
+              },
+            ),
+            SessionCard(
+              pagenumber: 9,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page108()));
+              },
+            ),
+            SessionCard(
+              pagenumber: 10,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page109()));
+              },
+            ),
 //            SessionCard(
 //              pagenumber: 12,
 //              press: () {
