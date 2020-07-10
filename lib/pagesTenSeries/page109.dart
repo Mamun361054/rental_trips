@@ -96,7 +96,7 @@ class Page109 extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text('No thanks, i\'d like to decline demage protection',style: TextStyle(fontWeight: FontWeight.normal,fontSize: 13.0,color: Colors.orangeAccent),),
+                  child: Text('No thanks, I\'d like to decline damage protection',style: TextStyle(fontWeight: FontWeight.normal,fontSize: 13.0,color: Colors.orangeAccent),),
                 ),
                 Spacer(),
                 Container(
