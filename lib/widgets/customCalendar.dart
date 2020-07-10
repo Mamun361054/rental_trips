@@ -151,6 +151,8 @@ class _CustomCalendarViewState extends State<CustomCalendarView> {
     );
   }
 
+  ///days name design
+  ///return all days name as list of widget
   List<Widget> getDaysNameUI() {
     List<Widget> listUI = List<Widget>();
     for (var i = 0; i < 7; i++) {
@@ -300,6 +302,8 @@ class _CustomCalendarViewState extends State<CustomCalendarView> {
     return noList;
   }
 
+  ///check date that is it in
+  ///the range between start and end date
   bool getIsInRange(DateTime date) {
     if (startDate != null && endDate != null) {
       if (date.isAfter(startDate) && date.isBefore(endDate)) {
@@ -312,6 +316,7 @@ class _CustomCalendarViewState extends State<CustomCalendarView> {
     }
   }
 
+  ///check date that is it start and end date
   bool getIsItStartAndEndDate(DateTime date) {
     if (startDate != null && startDate.day == date.day && startDate.month == date.month && startDate.year == date.year) {
       return true;
@@ -342,6 +347,7 @@ class _CustomCalendarViewState extends State<CustomCalendarView> {
     }
   }
 
+  ///perform date click tast
   void onDateClick(DateTime date) {
     if (startDate == null) {
       startDate = date;
