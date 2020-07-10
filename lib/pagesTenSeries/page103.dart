@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rentaltrips/widgets/car_swap_list.dart';
 import 'package:rentaltrips/widgets/car_swap_widget.dart';
-import 'package:rentaltrips/widgets/outline_button_widget.dart';
 import 'package:rentaltrips/widgets/suvs_swap_list.dart';
 import 'package:rentaltrips/widgets/trucksAndVans_swap_list.dart';
 class Page103 extends StatefulWidget {
@@ -12,7 +11,6 @@ class Page103 extends StatefulWidget {
 class _Page103State extends State<Page103> {
 
   int _currentLevel = 10;
-  String _currentLevelTitle;
 
   @override
   Widget build(BuildContext context) {

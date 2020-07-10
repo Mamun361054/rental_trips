@@ -9,6 +9,7 @@ import 'package:rentaltrips/pagesTenSeries/page107.dart';
 import 'package:rentaltrips/pagesTenSeries/page108.dart';
 import 'package:rentaltrips/pagesTenSeries/page109.dart';
 import 'package:rentaltrips/pagesTenSeries/page110.dart';
+import 'package:rentaltrips/pagesTenSeries/page111.dart';
 import 'package:rentaltrips/pagesTenSeries/page_with_navigation.dart';
 import 'package:rentaltrips/widgets/session_card.dart';
 class MyHomePageTen extends StatefulWidget {
@@ -104,19 +105,13 @@ class _MyHomePageTenState extends State<MyHomePageTen> {
                     context, MaterialPageRoute(builder: (context) => Page110()));
               },
             ),
-//            SessionCard(
-//              pagenumber: 11,
-//              press: () {
-//                openDialogPage911(context);
-//              },
-//            ),
-//            SessionCard(
-//              pagenumber: 13,
-//              press: () {
-//                Navigator.push(
-//                    context, MaterialPageRoute(builder: (context) => Page913()));
-//              },
-//            ),
+            SessionCard(
+              pagenumber: 12,
+              press: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Page111()));
+              },
+            ),
           ],
         ),
       ),
